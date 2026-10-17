@@ -1,0 +1,40 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Extracted portable runtime (keep runtime/*.zip for Windows quick start)
+.runtime/
+
+# Local edits, generated exports, and runtime data
+.runtime-edits.json
+.runtime-edits.json.*
+exports/
+output/
+tmp/
+temp/
+*.log
+*.tmp
+*.temp
+*.bak
+*.pid
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor, OS, and tool caches
+.vscode/
+.idea/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
